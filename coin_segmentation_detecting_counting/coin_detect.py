@@ -51,6 +51,7 @@ def one_bath():
                                 
         cv2.putText(roi,'Coin: '+ str(counter),(10,50),cv2.FONT_HERSHEY_DUPLEX,1,(0,0,255),2,cv2.LINE_AA) #text
         cv2.putText(roi,'Result: '+ str(price),(10,120),cv2.FONT_HERSHEY_DUPLEX,1,(0,0,255),2,cv2.LINE_AA) #text
+        cv2.putText(roi,'Press 0 to end',(380,450),cv2.FONT_HERSHEY_DUPLEX,1,(0,0,255),2,cv2.LINE_AA)
         # cv2.imshow('B',closing)
         cv2.imshow('Coin', roi)
         
@@ -103,6 +104,7 @@ def two_bath():
                                 
         cv2.putText(roi,'Coin: '+ str(counter),(10,50),cv2.FONT_HERSHEY_DUPLEX,1,(0,0,255),2,cv2.LINE_AA) #text
         cv2.putText(roi,'Result: '+ str(price),(10,120),cv2.FONT_HERSHEY_DUPLEX,1,(0,0,255),2,cv2.LINE_AA) #text
+        cv2.putText(roi,'Press 0 to end',(380,450),cv2.FONT_HERSHEY_DUPLEX,1,(0,0,255),2,cv2.LINE_AA)
         # cv2.imshow('B',closing)
         cv2.imshow('Coin', roi)
         if cv2.waitKey(1) & 0xFF == ord('0'):
@@ -159,6 +161,8 @@ def five_bath():
         
         cv2.putText(roi,'Coin: '+ str(counter),(10,50),cv2.FONT_HERSHEY_DUPLEX,1,(0,0,255),2,cv2.LINE_AA) #text
         cv2.putText(roi,'Result: '+ str(price),(10,120),cv2.FONT_HERSHEY_DUPLEX,1,(0,0,255),2,cv2.LINE_AA) #text
+        cv2.putText(roi,'Press 0 to end',(380,450),cv2.FONT_HERSHEY_DUPLEX,1,(0,0,255),2,cv2.LINE_AA)
+        
         # cv2.imshow('B',closing)
         cv2.imshow('Coin', roi)
         if cv2.waitKey(1) & 0xFF == ord('0'):
@@ -215,6 +219,8 @@ def ten_bath():
                 
         cv2.putText(roi,'Coin: '+ str(counter),(10,50),cv2.FONT_HERSHEY_DUPLEX,1,(0,0,255),2,cv2.LINE_AA) #text
         cv2.putText(roi,'Result: '+ str(price),(10,120),cv2.FONT_HERSHEY_DUPLEX,1,(0,0,255),2,cv2.LINE_AA) #text
+        cv2.putText(roi,'Press 0 to end',(380,450),cv2.FONT_HERSHEY_DUPLEX,1,(0,0,255),2,cv2.LINE_AA)
+        
         # cv2.imshow('B',closing)
         cv2.imshow('Coin', roi)
         if cv2.waitKey(1) & 0xFF == ord('0'):
