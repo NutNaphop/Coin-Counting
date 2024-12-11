@@ -1,11 +1,3 @@
-# coin_segmentation_counting
+# Coin Couting
+![preview](coin_segmentation_detecting_counting/screenshot/3.png)
 Coin_segmentation_counting_detection by open cv and interface by Tkinter
-
-Use python and cv2 
-And
-Interface I use tkinker
-
-Dont forgot to import!!!
-And
-Use your webcam to work it 
-Good Luck
